@@ -22,4 +22,35 @@ This project features player profiles including MS Dhoni, Virat Kohli, Rohit Sha
 - Ravindra Jadeja
 - And more...
 
-## 📁 File Structure
+*Created as part of HTML learning journey*
+
+## 🚀 Enhanced Features (Newly Added)
+
+### Semantic HTML Structure
+- `<header>` - Website header with navigation
+- `<nav>` - Menu for easy section access  
+- `<main>` - Main content container
+- `<section>` - Different content sections with IDs
+- `<footer>` - Page footer
+
+### Multimedia Elements
+- `<img>` - Actual player images from Cricbuzz
+- `<video>` - World Cup winning moments
+- `<source>` - Video source elements
+
+### Interactive Forms
+- `<form>` - Fan poll for user interaction
+- `<input type="radio">` - Voting options
+- `<textarea>` - User comments section
+- `<button>` - Submit actions
+
+### Advanced Navigation
+- Anchor links with `#section-id`
+- Smooth scrolling between sections
+- Organized menu structure
+
+## 🎯 Skills Practiced Today
+- Semantic HTML implementation
+- Multimedia content embedding
+- Form creation and structure
+- Project organization with proper sections
