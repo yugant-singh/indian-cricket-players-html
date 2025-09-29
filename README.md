@@ -54,3 +54,62 @@ This project features player profiles including MS Dhoni, Virat Kohli, Rohit Sha
 - Multimedia content embedding
 - Form creation and structure
 - Project organization with proper sections
+
+
+# Indian Cricket Team Players Website 🏏
+
+A stylish website showcasing Indian cricket team players with modern CSS styling.
+
+## 🌟 Features
+- **Clean Design** - Professional appearance
+- **Modern CSS Styling** - Attractive visuals
+- **Glassmorphism Effects** - Contemporary UI
+- **Color-coded Sections** - Easy navigation
+- **Interactive Forms** - Fan engagement
+- **Multimedia Content** - Images & Videos
+
+## 🛠️ Technologies Used
+- **HTML5** - Semantic Structure
+- **CSS3** - Modern Styling
+- **Glassmorphism** - UI Effects
+
+## 🎨 CSS Features Implemented
+### Layout & Design
+- Box Model (Padding, Margin, Border)
+- Color Scheme Application
+- Typography Styling
+- Section-based Design
+
+### Visual Effects
+- Glassmorphism (Backdrop Filter)
+- Box Shadows & Borders
+- Image Styling
+- Color Psychology
+
+### Components Styled
+- Navigation Menu
+- Player Profile Cards
+- Statistics Display
+- Video Sections
+- Interactive Forms
+
+## 🏏 Project Sections
+1. **Header** - Navigation & Branding
+2. **Player Profiles** - MS Dhoni, Kohli, Rohit Sharma ,etc
+3. **Statistics** - Team Performance
+4. **Highlights** - Video Content
+5. **Fan Poll** - Interactive Forms
+6. **Footer** - Links & Information
+
+## 🚀 How to Run
+1. Download all files
+2. Open `index.html` in any browser
+3. Explore different sections
+
+## 📁 File Structure
+cricket-website/
+├── index.html
+├── style.css
+├── 2007-winning-moment.mp4
+├── 2011-winning-moment.mp4
+└── README.md

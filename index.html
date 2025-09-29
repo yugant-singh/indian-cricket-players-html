@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Cricket Team Players</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <h1>🏏 INDIAN CRICKET PLAYERS PROFILE CONTENT:</h1>
         <nav>
             <a href="#icon">⭐ Favorite</a>  |
@@ -42,7 +43,7 @@
         <section id="Batting">
             <h2> Batting Legends:</h2>
             <h2>1. Virat Kohli - </h2>
-            <h4>Role: Right-handed Batsman</h4>
+            <h4 class="role">Role: Right-handed Batsman</h4>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c616517/virat-kohli.jpg" alt="virat-kohli">
             <h4>Records:</h4>
             <p>- Most centuries in ODI cricket</p>
@@ -51,7 +52,7 @@
             <a href="https://www.cricbuzz.com/profiles/1413/virat-kohli" target="_blank"><b>See Full Stats</b></a>
 
             <h2>2. Rohit Sharma - </h2>
-            <h4>Role: Opening Batsman, Captain</h4>
+            <h4 class="role">Role: Opening Batsman, Captain</h4>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c616514/rohit-sharma.jpg" alt="rohit-sharma">
             <h4>Records:</h4>
             <p>- Most double centuries in ODI (3)</p>
@@ -65,14 +66,14 @@
             <h2>Bowling Legends:</h2>
             <h2>1. Jasprit Bumrah - </h2>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c591949/jasprit-bumrah.jpg" alt="jasprit-bumrah">
-            <h4>Role: Fast Bowler</h4>
+            <h4 class="role">Role: Fast Bowler</h4>
             <h4>Records:</h4>
             <p>- Fastest Indian to 100 ODI wickets</p>
             <p>- Hat-trick in Test cricket</p>
             <p>- Most Loving Player</p>
             <a href="https://www.cricbuzz.com/profiles/9311/jasprit-bumrah" target="_blank"><b>See Full Stats</b></a>
             <h2>2.Ravindra Jadeja </h2>
-            <h4>Role: All-rounder</h4>
+            <h4 class="role">Role: All-rounder</h4>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c616520/ravindra-jadeja.jpg"
                 alt="ravindra-jadeja">
             <h4>Records:</h4>
@@ -86,18 +87,18 @@
 
             <h2> Upcoming Players:</h2>
             <h2>1. Shubman Gill - </h2>
-            <h4>Role:Opening Batsman</h4>
+            <h4 class="role">Role:Opening Batsman</h4>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c616515/shubman-gill.jpg" alt="shubman-gill">
-            <h4>Achievements:</h4>
+            <h4 class="achievements" >Achievements:</h4>
             <p>- Youngest to score double century in ODI</p>
             <a href="https://www.cricbuzz.com/profiles/11808/shubman-gill" target="_blank"><b>See Full Stats</b></a>
 
             <h2>2. Rishabh Pant- </h2>
-            <h4>Role:Wicketkeeper-Batsman</h4>
+            <h4 class="role">Role:Wicketkeeper-Batsman</h4>
             <img src="https://static.cricbuzz.com/a/img/v1/152x152/i1/c616524/rishabh-pant.jpg" alt="rishabh-pant">
-            <h4>Specialty:</h4>
-            <p>-Aggressive batting</p>
-            <p><b>Famous for:</b>Gabba Test winning innings</p>
+            <h4 class="specialty">Specialty:</h4>
+            <p class="achievements">Agressive batting</p>
+            <p>- Famous for:Gabba Test winning innings</p>
             <a href="https://www.cricbuzz.com/profiles/10744/rishabh-pant" target="_blank"><b>See Full Stats</b></a>
         </section>
         <hr>
@@ -136,7 +137,9 @@
         </section>
 <hr>
         <section id="fan-poll">
+            
             <h2>📊 Fan Poll: Greatest Indian Cricket Captain</h2>
+            <div id="fan-box">
             <form>
                 <h3>Vote for your favorite captain:</h3>
                 <label>
@@ -159,7 +162,7 @@
                     <b>Virat Kohli</b> - 🔥 Test cricket dominance
                 </label>
                 <br><br>
-                <label>
+                <label id="choose">
                     Why did you choose this captain?
                 </label>
                 <br><br>
@@ -169,15 +172,16 @@
 
             </form>
 
-
+</div>
 
         </section>
 
     </main>
     <hr>
     <footer>
-        <section id="Links-Section:">
+        <section id="Links-Section">
             <h2>More Information:</h2>
+            
             <a href="https://www.bcci.tv/" target="_blank"> <b>BCCI Official Website</b></a>
             <a href="https://www.espncricinfo.com/" target="_blank"> <b>ESPN Cricinfo</b></a>
         </section>

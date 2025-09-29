@@ -1,0 +1,401 @@
+
+@font-face {
+    font-family: gilroy;
+    src: url(./Gilroy-Heavy.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    height: 100%;
+    width: 100%;
+ background-color: #f0fff0;
+}
+#header{
+    background-color: darkblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header nav{
+    
+    color: white;
+text-decoration: none;
+}
+
+#header nav a{
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#icon {
+    background-color: #e3f2fd;  /* Light blue */
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #2196F3;
+    margin: 10px 0;
+}
+
+
+#icon h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#icon h4{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    
+    text-transform: uppercase;
+}
+
+
+#icon p{
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#icon p b{
+    color:rgba(110, 22, 22, 0.832);
+    font-size: 16px;
+    line-height: 1.5;
+}
+#icon img{
+    border: 3px solid #2196F3;
+    border-radius: 10px;
+    
+}
+
+#icon a{
+    text-decoration: none;
+    color:#1976d2;
+    font-weight: bold;
+
+}
+#Batting{
+    background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+/* Batting Section*/
+
+#Batting h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#Batting .role{
+    color:  #1976d2 ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Batting h4{
+    color: #1976d2;
+}
+
+#Batting p{
+ color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+#Batting img{
+     border: 3px solid #2196F3;
+    border-radius: 10px;
+}
+
+
+
+#Batting a{
+    text-decoration: none;
+    color:#1976d2;
+    font-weight: bold;
+
+}
+
+
+/* Bolling Section */
+
+#Bowling{
+    background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+
+
+#Bowling h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+#Bowling  .role{
+    color:  #1976d2 ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Bowling h4{
+    color: #1976d2;
+}
+
+
+#Bowling img{
+     border: 3px solid #2196F3;
+    border-radius: 10px;
+}
+
+#Bowling p{
+ color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+#Bowling a{
+    text-decoration: none;
+    color:#1976d2;
+    font-weight: bold;
+
+}
+
+
+/*Upcoming*/
+
+#Upcoming{
+    background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+
+
+#Upcoming h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#Upcoming  .role{
+    color:  #1976d2 ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+#Upcoming img{
+     border: 3px solid #2196F3;
+    border-radius: 10px;
+}
+
+#Upcoming p{
+ color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+#Upcoming .achievements{
+    color:  #1976d2 ; 
+}
+
+#Upcoming {
+     color:  #1976d2 ;
+}
+#Upcoming a{
+    text-decoration: none;
+    color:#1976d2;
+    font-weight: bold;
+
+}
+
+/*Team-Statistics */
+#Team-Statistics{
+     background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+
+
+
+ #Team-Statistics h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+ #Team-Statistics h4{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+   
+    text-transform: uppercase;
+}
+
+
+#Team-Statistics p b{
+ color: rgba(171, 38, 38, 0.93);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+
+
+#Team-Statistics p {
+ color: rgba(171, 38, 38, 0.93);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+#Team-Statistics a{
+    text-decoration: none;
+    color:#1976d2;
+    font-weight: bold;
+
+}
+
+#Team-Statistics h3 {
+color:#1976d2;
+}
+
+/*highlights*/
+#highlights{
+     background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+
+
+ #highlights h2{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+ #highlights h3{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+
+  #highlights p b{
+ color: red;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+  #highlights p {
+ color: red;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+ #highlights video{
+    width: 80%;
+ }
+
+#fan-poll{
+      background-color:#e3f2fd;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-left: 5px solid#2196F3 ;
+}
+
+
+ #fan-poll h2{
+     color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#fan-poll #fan-box{
+    height: 350px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px); /* Thoda zyada blur */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+   padding-top: 20px;
+   margin-top: 10px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+
+ #fan-poll h3{
+    color: #1976d2;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+
+#fan-poll #fan-box #choose{
+    color: red;
+}
+#fan-poll #fan-box textarea{
+    color: red;
+    border: 1px solid rgb(172, 35, 58);
+    border-radius: 3px;
+}
+
+
+#fan-poll button{
+      padding: 10px 20px; /* Height/width ki jagah padding use karo */
+    background: #2196F3; /* Cyan ki jagah blue */
+    color: white;
+    border: none;
+    border-radius: 5px;;
+}
+
+
+#Links-Section{
+    background-color:darkblue;
+    color: white;
+}
+
+#Links-Section a{
+    padding: 20px;
+     text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
